@@ -1,0 +1,181 @@
+(base) Ruthys-MBP:Triangle567 ruthylevi$ pylint TestTriangle.py 
+************* Module TestTriangle
+TestTriangle.py:20:33: C0303: Trailing whitespace (trailing-whitespace)
+TestTriangle.py:21:43: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(3,4,5),'Right','3,4,5 is a Right triangle')
+                                           ^ (bad-whitespace)
+TestTriangle.py:21:45: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(3,4,5),'Right','3,4,5 is a Right triangle')
+                                             ^ (bad-whitespace)
+TestTriangle.py:21:48: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(3,4,5),'Right','3,4,5 is a Right triangle')
+                                                ^ (bad-whitespace)
+TestTriangle.py:21:56: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(3,4,5),'Right','3,4,5 is a Right triangle')
+                                                        ^ (bad-whitespace)
+TestTriangle.py:23:33: C0303: Trailing whitespace (trailing-whitespace)
+TestTriangle.py:24:43: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(5,3,4),'Right','5,3,4 is a Right triangle')
+                                           ^ (bad-whitespace)
+TestTriangle.py:24:45: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(5,3,4),'Right','5,3,4 is a Right triangle')
+                                             ^ (bad-whitespace)
+TestTriangle.py:24:48: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(5,3,4),'Right','5,3,4 is a Right triangle')
+                                                ^ (bad-whitespace)
+TestTriangle.py:24:56: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(5,3,4),'Right','5,3,4 is a Right triangle')
+                                                        ^ (bad-whitespace)
+TestTriangle.py:25:0: C0303: Trailing whitespace (trailing-whitespace)
+TestTriangle.py:26:39: C0303: Trailing whitespace (trailing-whitespace)
+TestTriangle.py:27:43: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(1,1,1),'Equilateral','1,1,1 should be equilateral')
+                                           ^ (bad-whitespace)
+TestTriangle.py:27:45: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(1,1,1),'Equilateral','1,1,1 should be equilateral')
+                                             ^ (bad-whitespace)
+TestTriangle.py:27:48: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(1,1,1),'Equilateral','1,1,1 should be equilateral')
+                                                ^ (bad-whitespace)
+TestTriangle.py:27:62: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(1,1,1),'Equilateral','1,1,1 should be equilateral')
+                                                              ^ (bad-whitespace)
+TestTriangle.py:29:39: C0303: Trailing whitespace (trailing-whitespace)
+TestTriangle.py:30:43: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(5,5,5),'Equilateral','5,5,5 should be equilateral')
+                                           ^ (bad-whitespace)
+TestTriangle.py:30:45: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(5,5,5),'Equilateral','5,5,5 should be equilateral')
+                                             ^ (bad-whitespace)
+TestTriangle.py:30:48: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(5,5,5),'Equilateral','5,5,5 should be equilateral')
+                                                ^ (bad-whitespace)
+TestTriangle.py:30:62: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(5,5,5),'Equilateral','5,5,5 should be equilateral')
+                                                              ^ (bad-whitespace)
+TestTriangle.py:32:35: C0303: Trailing whitespace (trailing-whitespace)
+TestTriangle.py:33:43: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(6,8,11),'Scalene','6,8,11 should be scalene')
+                                           ^ (bad-whitespace)
+TestTriangle.py:33:45: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(6,8,11),'Scalene','6,8,11 should be scalene')
+                                             ^ (bad-whitespace)
+TestTriangle.py:33:49: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(6,8,11),'Scalene','6,8,11 should be scalene')
+                                                 ^ (bad-whitespace)
+TestTriangle.py:33:59: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(6,8,11),'Scalene','6,8,11 should be scalene')
+                                                           ^ (bad-whitespace)
+TestTriangle.py:35:35: C0303: Trailing whitespace (trailing-whitespace)
+TestTriangle.py:36:44: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(12,16,22),'Scalene','12,16,22 should be scalene')
+                                            ^ (bad-whitespace)
+TestTriangle.py:36:47: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(12,16,22),'Scalene','12,16,22 should be scalene')
+                                               ^ (bad-whitespace)
+TestTriangle.py:36:51: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(12,16,22),'Scalene','12,16,22 should be scalene')
+                                                   ^ (bad-whitespace)
+TestTriangle.py:36:61: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(12,16,22),'Scalene','12,16,22 should be scalene')
+                                                             ^ (bad-whitespace)
+TestTriangle.py:38:37: C0303: Trailing whitespace (trailing-whitespace)
+TestTriangle.py:39:43: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(5,5,4),'Isosceles','5,5,4 should be isosceles')
+                                           ^ (bad-whitespace)
+TestTriangle.py:39:45: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(5,5,4),'Isosceles','5,5,4 should be isosceles')
+                                             ^ (bad-whitespace)
+TestTriangle.py:39:48: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(5,5,4),'Isosceles','5,5,4 should be isosceles')
+                                                ^ (bad-whitespace)
+TestTriangle.py:39:60: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(5,5,4),'Isosceles','5,5,4 should be isosceles')
+                                                            ^ (bad-whitespace)
+TestTriangle.py:41:37: C0303: Trailing whitespace (trailing-whitespace)
+TestTriangle.py:42:44: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(10,10,8),'Isosceles','10,10,8 should be isosceles')
+                                            ^ (bad-whitespace)
+TestTriangle.py:42:47: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(10,10,8),'Isosceles','10,10,8 should be isosceles')
+                                               ^ (bad-whitespace)
+TestTriangle.py:42:50: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(10,10,8),'Isosceles','10,10,8 should be isosceles')
+                                                  ^ (bad-whitespace)
+TestTriangle.py:42:62: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(10,10,8),'Isosceles','10,10,8 should be isosceles')
+                                                              ^ (bad-whitespace)
+TestTriangle.py:44:35: C0303: Trailing whitespace (trailing-whitespace)
+TestTriangle.py:45:0: C0301: Line too long (114/100) (line-too-long)
+TestTriangle.py:45:45: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(250,250,300),'InvalidInput','250,250,300 should be an invalid triangle')
+                                             ^ (bad-whitespace)
+TestTriangle.py:45:49: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(250,250,300),'InvalidInput','250,250,300 should be an invalid triangle')
+                                                 ^ (bad-whitespace)
+TestTriangle.py:45:54: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(250,250,300),'InvalidInput','250,250,300 should be an invalid triangle')
+                                                      ^ (bad-whitespace)
+TestTriangle.py:45:69: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(250,250,300),'InvalidInput','250,250,300 should be an invalid triangle')
+                                                                     ^ (bad-whitespace)
+TestTriangle.py:47:35: C0303: Trailing whitespace (trailing-whitespace)
+TestTriangle.py:48:0: C0301: Line too long (116/100) (line-too-long)
+TestTriangle.py:48:45: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle("5","10","8"),'InvalidInput','"5","10","8" should be an invalid triangle')
+                                             ^ (bad-whitespace)
+TestTriangle.py:48:50: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle("5","10","8"),'InvalidInput','"5","10","8" should be an invalid triangle')
+                                                  ^ (bad-whitespace)
+TestTriangle.py:48:55: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle("5","10","8"),'InvalidInput','"5","10","8" should be an invalid triangle')
+                                                       ^ (bad-whitespace)
+TestTriangle.py:48:70: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle("5","10","8"),'InvalidInput','"5","10","8" should be an invalid triangle')
+                                                                      ^ (bad-whitespace)
+TestTriangle.py:50:35: C0303: Trailing whitespace (trailing-whitespace)
+TestTriangle.py:51:0: C0301: Line too long (112/100) (line-too-long)
+TestTriangle.py:51:53: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(-5, -5, -5),'InvalidInput','-5, -5, -5 should be an invalid triangle')
+                                                     ^ (bad-whitespace)
+TestTriangle.py:51:68: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(-5, -5, -5),'InvalidInput','-5, -5, -5 should be an invalid triangle')
+                                                                    ^ (bad-whitespace)
+TestTriangle.py:53:35: C0303: Trailing whitespace (trailing-whitespace)
+TestTriangle.py:54:0: C0301: Line too long (103/100) (line-too-long)
+TestTriangle.py:54:51: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(5, 6, 20),'NotATriangle','5, 6, 20 should not be a triangle')
+                                                   ^ (bad-whitespace)
+TestTriangle.py:54:66: C0326: Exactly one space required after comma
+        self.assertEqual(classifyTriangle(5, 6, 20),'NotATriangle','5, 6, 20 should not be a triangle')
+                                                                  ^ (bad-whitespace)
+TestTriangle.py:59:0: C0305: Trailing newlines (trailing-newlines)
+TestTriangle.py:1:0: C0103: Module name "TestTriangle" doesn't conform to snake_case naming style (invalid-name)
+TestTriangle.py:17:0: C0111: Missing class docstring (missing-docstring)
+TestTriangle.py:20:4: C0103: Method name "testRightTriangleA" doesn't conform to snake_case naming style (invalid-name)
+TestTriangle.py:20:4: C0111: Missing method docstring (missing-docstring)
+TestTriangle.py:23:4: C0103: Method name "testRightTriangleB" doesn't conform to snake_case naming style (invalid-name)
+TestTriangle.py:23:4: C0111: Missing method docstring (missing-docstring)
+TestTriangle.py:26:4: C0103: Method name "testEquilateralTriangleA" doesn't conform to snake_case naming style (invalid-name)
+TestTriangle.py:26:4: C0111: Missing method docstring (missing-docstring)
+TestTriangle.py:29:4: C0103: Method name "testEquilateralTriangleB" doesn't conform to snake_case naming style (invalid-name)
+TestTriangle.py:29:4: C0111: Missing method docstring (missing-docstring)
+TestTriangle.py:32:4: C0103: Method name "testScaleneTriangleA" doesn't conform to snake_case naming style (invalid-name)
+TestTriangle.py:32:4: C0111: Missing method docstring (missing-docstring)
+TestTriangle.py:35:4: C0103: Method name "testScaleneTriangleB" doesn't conform to snake_case naming style (invalid-name)
+TestTriangle.py:35:4: C0111: Missing method docstring (missing-docstring)
+TestTriangle.py:38:4: C0103: Method name "testIsoscelesTriangleA" doesn't conform to snake_case naming style (invalid-name)
+TestTriangle.py:38:4: C0111: Missing method docstring (missing-docstring)
+TestTriangle.py:41:4: C0103: Method name "testIsoscelesTriangleB" doesn't conform to snake_case naming style (invalid-name)
+TestTriangle.py:41:4: C0111: Missing method docstring (missing-docstring)
+TestTriangle.py:44:4: C0103: Method name "testInvalidTriangleA" doesn't conform to snake_case naming style (invalid-name)
+TestTriangle.py:44:4: C0111: Missing method docstring (missing-docstring)
+TestTriangle.py:47:4: C0103: Method name "testInvalidTriangleB" doesn't conform to snake_case naming style (invalid-name)
+TestTriangle.py:47:4: C0111: Missing method docstring (missing-docstring)
+TestTriangle.py:50:4: C0103: Method name "testInvalidTriangleC" doesn't conform to snake_case naming style (invalid-name)
+TestTriangle.py:50:4: C0111: Missing method docstring (missing-docstring)
+TestTriangle.py:53:4: C0103: Method name "testInvalidTriangleD" doesn't conform to snake_case naming style (invalid-name)
+TestTriangle.py:53:4: C0111: Missing method docstring (missing-docstring)
+
+----------------------------------------------------------------------
+Your code has been rated at -19.33/10 (previous run: -19.33/10, +0.00)
