@@ -1,0 +1,45 @@
+import unittest
+
+def isTriangle(a,b,c): # check to make sure triangle is valid before classifying
+    if (a <= 0 or b<=0 or c<=0) or ((a > b + c) or (b > a + c) or (c > a + b)):
+        print("This is not a valid triangle.")
+        return False
+    else:
+        return True
+
+def classifyTriangle(a,b,c):
+    if isTriangle(a,b,c):
+        if a == b and b == c: # CRITERIA FOR EQUILATERAL TRIANGLE
+            return 'Equilateral'
+        elif a != b and  b != c and a != c: # CRITERIA FOR SCALENE TRIANGLE
+            if a**2 + b**2 == c**2: # CRITERIA FOR RIGHT TRIANGLE
+                return 'Right'
+            else:
+                return 'Scalene'
+        elif (a == b) or (a == c) or (b == c): # CRITERIA FOR ISOSCELES TRIANGLE
+            if a**2 + b**2 == c**2: # CRITERIA FOR RIGHT TRIANGLE
+                return 'Right'
+            else:
+                return 'Isosceles'
+        
+class TestTriangles(unittest.TestCase):
+    # define multiple sets of tests as functions with names that begin
+    # with 'test'.  Each function may include multiple tests
+    def testSet1(self): # test invalid inputs
+        self.assertEqual(classifyTriangle(3,4,5),'Right','3,4,5 is a Right triangle')
+        self.assertEqual(classifyTriangle(7,24,25),'Right','7,24,25 is a Right triangle')
+        self.assertEqual(classifyTriangle(3,4,6),'Scalene','3,4,6 is a Scalene triangle')
+        self.assertEqual(classifyTriangle(3,4,7),'Scalene','3,4,7 is a Scalene triangle')
+        self.assertEqual(classifyTriangle(3,3,4),'Isosceles','3,3,4 is a Isosceles triangle')
+
+    def testMyTestSet2(self): 
+        # define multiple test sets to test different aspects of the code
+        self.assertEqual(classifyTriangle(1,1,1),'Equilateral','1,1,1 should be equilateral')
+        self.assertEqual(classifyTriangle(5,5,5),'Equilateral','5,5,5 should be equilateral')
+        self.assertNotEqual(classifyTriangle(10,10,10),'Isosceles','Should be Equilateral')        
+
+
+if __name__ == "__main__":
+    # classifyTriangle(4,5,6)
+    unittest.main(exit=True) # this runs all of the tests - running from the command line
+    
